@@ -1,0 +1,29 @@
+body {
+    font-family: Arial;
+}
+
+p {
+    font-size: 20px;
+    line-height: 0.5;
+}
+
+.currentWeather ul {
+    list-style: none;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.currentWeather .temperature {
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.currentWeather .unit {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.currentTemp {
+    display: flex;
+    align-content: center;
+}
