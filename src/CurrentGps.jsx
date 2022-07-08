@@ -1,5 +1,4 @@
 import React from "react";
-import axios from "axios";
 import { getWeatherForGps } from "./weather-api";
 
 export default function CurrentGps(props) {
