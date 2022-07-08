@@ -19,7 +19,7 @@ export default function CityWeather(props) {
   } else if (error) {
     return <div>ERROR! {error}</div>;
   } else if (weather === undefined) {
-    return <div>Loading weather for {props.city}</div>;
+    return <div>Please type a city name.</div>;
   } else {
     return <WeatherDisplay weather={weather} />;
   }
