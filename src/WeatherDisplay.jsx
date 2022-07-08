@@ -1,5 +1,5 @@
 import React from "react";
-import axios from "axios";
+
 import "./WeatherDisplay.css";
 import { formatDate } from "./format-date";
 import DisplayForecast from "./DisplayForecast";
@@ -18,7 +18,6 @@ export default function WeatherDisplay(props) {
         <h1>{props.weather.name.toUpperCase()}</h1>
         <div>
           <div>{formatDate(new Date(), props.weather.timezone)}</div>
-          Tuesday, 12:37 PM Sydney Time
         </div>
       </div>
       <div className="currentWeather row">
